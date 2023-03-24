@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
@@ -18,10 +18,4 @@ body {
     font-size: 1em;
     margin: 1%;
     padding: 0.5%;
-}
-
-@media screen and (max-width: 622px) {
-    body {
-        text-align: center;
-    }
 }
